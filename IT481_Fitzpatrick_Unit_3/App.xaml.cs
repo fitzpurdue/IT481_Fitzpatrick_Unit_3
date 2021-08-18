@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace IT481_Fitzpatrick_Unit_2
+namespace IT481_Fitzpatrick_Unit_3
 {
     /// <summary>
     /// Interaction logic for App.xaml

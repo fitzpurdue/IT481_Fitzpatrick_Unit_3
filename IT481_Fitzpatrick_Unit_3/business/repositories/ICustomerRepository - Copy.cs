@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IT481_Fitzpatrick_Unit_2.business.repositories
+namespace IT481_Fitzpatrick_Unit_3.business.repositories
 {
     public interface ICustomerRepository : IDisposable
     {

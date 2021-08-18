@@ -13,12 +13,16 @@
         </Grid.RowDefinitions>
 
         <StackPanel Grid.Row="0" VerticalAlignment="Top">
-            <TextBlock>Total Customers:</TextBlock>
-            <TextBlock Name="lblTotalCustomers" Text="0"/>
+            <TextBlock>Table:</TextBlock>
+            <ComboBox Name="cmbTable" Text="Choose a Table" SelectionChanged="ComboBox_SelectionChanged">
+                <ComboBoxItem Name="Orders">Orders</ComboBoxItem>
+                <ComboBoxItem Name="Employees">Employees</ComboBoxItem>
+                <ComboBoxItem Name="Customers">Customers</ComboBoxItem>
+            </ComboBox>
         </StackPanel>
 
         <Grid Grid.Row="1">
-            <DataGrid Name="customers" SelectionChanged="customers_SelectionChanged" />
+            <DataGrid Name="dgView" SelectionChanged="customers_SelectionChanged" />
         </Grid>
     </Grid>
 
